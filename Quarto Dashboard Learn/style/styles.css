@@ -1,0 +1,25 @@
+/* Apply a handwritten font for body text */
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Sketch-style headers */
+h1, h2, h3, h4, h5 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* Make buttons look hand-drawn */
+.btn {
+    border: 2px solid #0044cc; /* Cerulean blue */
+    border-radius: 10px;
+    background-color: #d6e9f8;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Sketch-like box effects */
+.card {
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.6);
+}

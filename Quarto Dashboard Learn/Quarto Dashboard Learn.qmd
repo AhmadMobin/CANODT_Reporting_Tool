@@ -1,0 +1,175 @@
+---
+title: "CanODT Testing Reporting Tool"
+format: 
+  dashboard:
+    orientation: columns
+    nav-buttons: [github]
+    github: https://github.com/posit-conf-2024/olympicdash
+    theme:
+      - sketchy
+      - style/olympicdash.scss
+---
+
+
+```{r}
+#| label: load-packages
+library(ggplot2)
+library(shiny)
+library(htmltools)
+library(fontawesome)
+library(tidyverse)
+
+```
+
+# Overview
+
+## Column 2 -
+
+### Row - 2 {height =" 90%"}
+
+::: {.card title=''}
+
+
+```{r}
+
+div(class="jumbotron jumbotron-fluid",
+  div(class="container",
+    h1(class="display-4", tags$span(HTML('Changes <i class="bi bi-arrow-repeat"></i>'))),
+    p(class="lead" , "This activity involves verifying the",
+    span("successful implementation of changes" , style = "font-weight: bold;"),"to previously-released CanODT modules (deceased donation, living donation and transplantation) ")
+    #,"Learn More" %>%  a(class = "btn btn-primary btn-sm;",
+    #                  href="#")  
+  )
+)
+```
+
+:::
+
+### Row - 2 {height =" 90%"}
+
+::: {.card title=""}
+
+
+```{r}
+
+div(class="jumbotron jumbotron-fluid",
+  div(class="container",
+    h1(class="display-4", tags$span(HTML('Submission End Point <i class="bi bi-arrows"></i>'))),
+    p(class="lead" , "This activity involves testing the CanODT Repository to",
+      span("accept submission of data at various stages", style = "font-weight: bold;"), 
+      "of the ODT process flow so that data is available for performance reporting on a timely basis.")
+    
+    # ,"Learn More" %>%  a(class = "btn btn-primary btn-sm;",
+    #                   href="#")  
+  )
+)
+```
+
+:::
+
+## Column 2 -
+
+### Row - 2 {height =" 90%"}
+
+::: {.card title=''}
+
+
+```{r}
+
+div(class="jumbotron jumbotron-fluid",
+  div(class="container",
+    h1(class="display-4", 
+       tags$span(HTML('Data Storage <i class="bi bi-database-fill-check"></i>'))),
+    p(class="lead" , "This activity involves verifying that submitted and updated data is",
+    span("accurately stored to a persisted data store", style = "font-weight: bold;"),
+    "in order to be access for further analysis.")
+    # ,"Learn More" %>%  a(class = "btn btn-primary btn-sm;",
+    #                   href="#")  
+  )
+)
+```
+
+:::
+
+### Row - 2 {height =" 90%"}
+
+::: {.card title=''}
+
+
+```{r}
+
+div(class="jumbotron jumbotron-fluid",
+  div(class="container",
+    h1(class="display-4", tags$span(HTML('Authorize Submitter <i class="bi bi-shield-lock"></i>'))),
+    p(class="lead" , "This activity involves testing that CanODT Operators to be",
+    span("authenicated and authorized", style = "font-weight: bold;"),
+    "so that data submissions are only accepted from authorized organizations and submitters.")
+    #,"Learn More" %>%  a(class = "btn btn-primary btn-sm;",
+    #                  href="#")  
+  )
+)
+```
+
+:::
+
+## Column 2 -
+
+### Row - 2 {height =" 90%"}
+
+::: {.card title=''}
+
+
+```{r}
+
+div(class="jumbotron jumbotron-fluid",
+  div(class="container",
+    h1(class="display-4", tags$span(HTML('Multilanguage <i class="bi bi-spellcheck"></i>'))),
+    p(class="lead" , "This activity involves testing the ability to",
+    span("send and recieve API messages in French.", style = "font-weight: bold;")
+    )
+    #,"Learn More" %>%  a(class = "btn btn-primary btn-sm;",
+    #                  href="#")  
+  )
+)
+```
+
+:::
+
+### Row - 2 {height =" 90%"}
+
+::: {.card title=''}
+
+
+```{r}
+
+div(class="jumbotron jumbotron-fluid",
+  div(class="container",
+    h1(class="display-4", tags$span(HTML('Future Enhancements <i class="bi bi-calendar4-week"></i>'))),
+    p(class="lead" , "This activity involves identifying which changes are not essential for this upcoming release and therefore can be",
+    span("deferred for a future implementation.", style = "font-weight: bold;"))
+    #,"Learn More" %>%  a(class = "btn btn-primary btn-sm;",
+    #                  href="#")  
+  )
+)
+```
+
+:::
+
+# Living Donation 
+
+::: {.card title=''}
+
+
+```{r}
+
+div(class="jumbotron jumbotron-fluid",
+  div(class="container",
+    h1(class="display-4", tags$span(HTML('Future Enhancements <i class="bi bi-calendar4-week"></i>'))),
+    p(class="lead" , "This activity involves verifying that submitted and updated data is accurately stored to a persisted data store in order to be access for further analysis.")
+    #,"Learn More" %>%  a(class = "btn btn-primary btn-sm;",
+    #                  href="#")  
+  )
+)
+```
+
+:::

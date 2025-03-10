@@ -1,0 +1,42 @@
+/*-- scss:defaults --*/
+
+// colors
+
+$navbar-bg: #ED7024;
+$navbar-fg: #F0F0F0;
+
+
+$link-color: #ae8b2d;
+$hover-color: lighten($link-color, 40%);
+
+/*-- scss:rules --*/
+.card-header {
+  background-color: #C8DA3F;
+}
+
+.nav-item > a:hover {
+  color: #ae8b2d;
+}
+
+.nav-link {
+  color: #F0F0F0;
+}
+
+.tabset .nav-link {
+  color: #52515e;
+}
+
+.value-box {
+  text-align: center;
+}
+
+/*
+h1 {
+    
+    color: #C8DA3F; // Custom lime-green color
+}
+*/
+
+i, .fa, .bi {
+    color: #C8DA3F !important;  /* Set all icons to custom blue */
+}
